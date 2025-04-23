@@ -114,7 +114,14 @@ a:hover {
  header {
     background-image:url(/images/the-sleep-co-bed.jpg) ; 
     background-size: cover;
-    background-position: center;
+    background-position: relative;
+}
+
+div.header-nav {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 
