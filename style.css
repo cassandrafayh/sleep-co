@@ -13,7 +13,7 @@
 
 
 
-/* Image Styles */
+/* -------- Image Styles -------- */
 .bg-image {
     background-image: url('/images/the-sleep-co-bed.jpg');
     background-size: cover;
@@ -21,7 +21,7 @@
 }
 
 
-/* Universal Styles & Utility Classes */
+/* -------- Universal Styles & Utility Classes -------- */
 
 body {
     font-family: 'Catamaran', sans-serif;
@@ -45,7 +45,7 @@ body {
 .tall-100 { min-height: 100vh; }
 
 
-/* Typography Styles */
+/* -------- Typography Styles -------- */
 
 h2 {
     font-size: 2.5rem;
@@ -119,7 +119,7 @@ a:hover {
 
 
 
- /* Header & Footer Styles */
+ /* -------- Header & Footer Styles -------- */
 
  header {
     background-image:url(/images/the-sleep-co-bed.jpg) ; 
@@ -147,7 +147,7 @@ footer a {
 
 
 
-/* background images */
+/* -------- Background Images -------- */
 
 .bg-bed {
     background-image: url('images/the-sleep-co-blue.jpg');
@@ -166,7 +166,7 @@ footer a {
 
 
 
-/* icon grid */
+/* -------- Icon Grid -------- */
 .fas {
     display: block;
     text-align: center;
@@ -175,29 +175,12 @@ footer a {
 }
 
 
-/* ---------- MD Media Query (1024px) = Styles added here will apply at devices smaller than 1024px ---------- */ 
-
-@media (max-width: 1024px) {
-    .bg-bed {
-        background-image: url('images/the-sleep-co-blue.jpg');
-        background-position: 50% 35%;
-    }
-
-
-}
-
+/* -------- Media Queries to Make Site Responsive -------- */
 
 /* ---------- SM Media Query (768px) = Styles added here will apply at devices smaller than 768px ---------- */ 
 
 @media (max-width: 48em) {
-
-}
-
-
-/* ---------- XS Media Query (576px) = Styles added here will apply at devices smaller than 576px ---------- */ 
-
-@media (max-width: 36em) {
-
-
-
+    .sm-text-center {
+        text-align: center;
+    }
 }
