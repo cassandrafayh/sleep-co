@@ -175,11 +175,32 @@ footer a {
 }
 
 
+
 /* -------- Media Queries to Make Site Responsive -------- */
+
+
+/* ---------- MD Media Query (1024px) = Styles added here will apply at devices smaller than 1024px ---------- */ 
+
+@media (max-width: 1024px) {
+    .bg-yellow {
+        background-image: url('images/the-sleep-co-yellow.jpg');
+        max-width: 100%;
+}
+
+
 
 /* ---------- SM Media Query (768px) = Styles added here will apply at devices smaller than 768px ---------- */ 
 
 @media (max-width: 48em) {
+
+    .header-h3 {
+        font-size: 4.5rem;
+    }
+
+    .header-h1 {
+        font-size: 1.6rem;
+    }
+
     .sm-dark-text {
         color:#192B37;
     }  
@@ -191,5 +212,17 @@ footer a {
         background-image: url('images/the-sleep-co-yellow.jpg');
         max-width: 100vh;
         max-height: 10vh;
+    }
+
+    .icon-p {
+        font-size: 0.9rem;
+        text-align: center;
+    }
+
+    .sm-cloud {
+        text-align: center;
+        font-size: 2.5rem;
+        padding: 0;
+        margin-bottom: 5%;
     }
 }
