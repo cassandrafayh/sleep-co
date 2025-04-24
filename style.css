@@ -183,4 +183,8 @@ footer a {
     .sm-text-center {
         text-align: center;
     }
+
+    .sm-dark-text {
+        color:#192B37;
+    }  
 }
