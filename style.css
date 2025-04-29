@@ -39,14 +39,26 @@ body {
 .padded-lg { padding: 10%;}
 
 
+
+/* ---------- Background Colours ----------*/
+
 .bg-dark { 
     background-color: #192B37;
     color: white;
  }
 
- .bg-featured {
-    background-color: #FFBE00;
+ 
+ .bg-light {
+    background-color: #e3ecf2 ;
  }
+
+
+ .bg-featured { background-color: #FFBE00;}
+
+
+
+
+
 
 
 .tall-50 {min-height: 50vh;  }
