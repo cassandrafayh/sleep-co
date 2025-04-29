@@ -32,10 +32,16 @@ body {
 .padded-sm { padding: 1rem; }
 .padded-lg { padding: 10%;}
 
+
 .bg-dark { 
     background-color: #192B37;
     color: white;
  }
+
+ .bg-featured {
+    background-color: #FFBE00;
+ }
+
 
 .tall-50 {min-height: 50vh;  }
 .tall-60 { min-height: 60vh; }
@@ -87,7 +93,7 @@ a:hover {
 
 
 .featured-text { color: #FFBE00;}
-.white-text { color: white;}
+.white-text {color: white; }
 
 
 .small-text  { font-size: 1.5rem;}
