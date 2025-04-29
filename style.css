@@ -21,6 +21,12 @@
 }
 
 
+.landscape { padding-bottom: 65%; }
+.portrait  { padding-bottom: 125%;}
+.square    { padding-bottom: 100%;}
+
+
+
 /* -------- Universal Styles & Utility Classes -------- */
 
 body {
@@ -54,6 +60,7 @@ body {
 .right  { text-align: right; }
 .left   { text-align: left;  }
 .center { text-align: center;}
+
 
 
 /* -------- Typography Styles -------- */
