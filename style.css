@@ -45,6 +45,11 @@ body {
 .tall-100 { min-height: 100vh; }
 
 
+.right  { text-align: right; }
+.left   { text-align: left;  }
+.center { text-align: center;}
+
+
 /* -------- Typography Styles -------- */
 
 h2 {
