@@ -249,7 +249,6 @@ header h3 {
     line-height: 1;
 }
 
-
 div.header-nav {
     position: relative;
     top: 0;
@@ -257,11 +256,9 @@ div.header-nav {
     width: 100%;
 }
 
-
 footer a {
     border: none;
 }
-
 
 
 
@@ -271,28 +268,14 @@ footer a {
     background-image: url('images/the-sleep-co-blue.jpg');
     background-position: 50% 35%;
 }
-
 .bg-pug { 
     background-image: url('images/the-sleep-co-pug.jpg');
     background-position: 50% 35%;
 }
-
 .bg-yellow {
     background-image: url('images/the-sleep-co-yellow.jpg');
     background-position: 50% 53%;
 }
-
-
-
-/* ------------ Icon Grid ------------ */
-
-.fas {
-    display: block;
-    text-align: center;
-    margin-bottom: 2rem;
-    font-size: 3rem;
-}
-
 
 
 
@@ -313,6 +296,8 @@ textarea {
     color: rgb(120,120,125);
     line-height: 1;
 }
+
+
 
 
 /* -------- Media Queries to Make Site Responsive -------- */
