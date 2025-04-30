@@ -13,19 +13,6 @@
 
 
 
-/* -------- Image Styles -------- */
-.bg-image {
-    background-image: url('/images/the-sleep-co-bed.jpg');
-    background-size: cover;
-    min-height: 10rem;
-}
-
-
-.landscape { padding-bottom: 65%; }
-.portrait  { padding-bottom: 125%;}
-.square    { padding-bottom: 100%;}
-
-
 
 /* -------- Universal Styles & Utility Classes -------- */
 
@@ -37,6 +24,20 @@ body {
 .padded { padding: 5% }
 .padded-sm { padding: 1rem; }
 .padded-lg { padding: 10%;}
+
+
+.tall-50 {min-height: 50vh;  }
+.tall-60 { min-height: 60vh; }
+.tall-70 {min-height: 70vh;}
+.tall-80 { min-height: 80vh; }
+.tall-90 { min-height: 90vh; }
+.tall-100 { min-height: 100vh; }
+
+
+.right  { text-align: right; }
+.left   { text-align: left;  }
+.center { text-align: center;}
+
 
 
 
@@ -56,22 +57,6 @@ body {
  .bg-featured { background-color: #FFBE00;}
 
 
-
-
-
-
-
-.tall-50 {min-height: 50vh;  }
-.tall-60 { min-height: 60vh; }
-.tall-70 {min-height: 70vh;}
-.tall-80 { min-height: 80vh; }
-.tall-90 { min-height: 90vh; }
-.tall-100 { min-height: 100vh; }
-
-
-.right  { text-align: right; }
-.left   { text-align: left;  }
-.center { text-align: center;}
 
 
 
@@ -155,6 +140,7 @@ a:hover {
 
 
 
+
  /* -------- Header & Footer Styles -------- */
 
  header {
@@ -183,6 +169,24 @@ footer a {
 
 
 
+
+/* -------- Image Styles -------- */
+
+.bg-image {
+    background-image: url('/images/the-sleep-co-bed.jpg');
+    background-size: cover;
+    min-height: 10rem;
+}
+
+
+.landscape { padding-bottom: 65%; }
+.portrait  { padding-bottom: 125%;}
+.square    { padding-bottom: 100%;}
+
+
+
+
+
 /* -------- Background Images -------- */
 
 .bg-bed {
@@ -202,13 +206,27 @@ footer a {
 
 
 
-/* -------- Icon Grid -------- */
+/* ------------ Icon Grid ------------ */
+
 .fas {
     display: block;
     text-align: center;
     margin-bottom: 2rem;
     font-size: 3rem;
 }
+
+
+
+
+/* ---------- Buttons & Forms ---------- */
+
+input,
+textarea {
+    width: 100%;
+    display: block;
+}
+
+
 
 
 
