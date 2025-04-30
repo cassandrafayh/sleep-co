@@ -249,16 +249,21 @@ header h3 {
 }
 
 nav a {
-    padding: 0.5rem;
+    padding: 0.4rem;
+    display: inline-block;
+    border: none;
+}
+
+.logo h2 {
+    margin-bottom: 0;
+    padding: 1rem;
 }
 
 footer a {
     border: none;
 }
 
-.logo {
-    padding: 0.5rem;
-}
+
 
 
 /* ----------- Background Images ----------- */
