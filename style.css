@@ -133,7 +133,6 @@ img { max-width: 100% }
 
 
 
-
 /* -------- Typography Styles -------- */
 
 body {
@@ -146,17 +145,13 @@ body {
 .center  { text-align: center; }
 
 
-.font-weight-light { font-weight: 200;}
-.font-weight-normal { font-weight: normal;}
-.font-weight-extra-bold { font-weight: 800;}
 
-
+/*-- Heading Styles -- */
 
 h2,h3,h4,h5,h6 {
     margin-bottom: 1.2rem;
     line-height: 1.1;
 }
-
 
 h2 {
     font-size: 2.5rem;
@@ -164,9 +159,14 @@ h2 {
     margin-bottom: 1rem;
 }
 
+h3 { 
+    font-size: 1.8rem;
+    line-height: 1; 
+}
 
-h3 { line-height: 1; }
-
+h4 {
+    font-size: 1.5rem;
+}
 
 p {
     font-weight: 200;
@@ -184,47 +184,54 @@ p:last-child {
 	margin-bottom: 0;
 }
 
-
-a{
+/* -- Anchor Links -- */
+a {
     color: inherit;
     text-decoration: none;
     border-bottom: 1px solid;
 }
-
 
 a:hover {
     color: #FFBE00;
 }
 
 
+/* -- Typography Classes: For specific elements rather than for everything -- */
+
+.font-weight-light { font-weight: 200;}
+.font-weight-normal { font-weight: normal;}
+.font-weight-extra-bold { font-weight: 800;}
+
+
+/* -- Featured Text Styles -- */
+
 .featured-text { color: #FFBE00;}
-.white-text {color: white; }
+.white-text    { color: white;  }
 
 
-.small-text  { font-size: 1.5rem;}
+/* -- Classes to override defult font sizes -- */
 
+.small-text  { font-size: 1.5rem; }
 .medium-text { 
     font-size: 2rem;  
     line-height: 1.1;
 }
-
-.big-text    { font-size: 4.5rem;  }
-
+.big-text    { font-size: 4.5rem;}
 
 .subtitle { 
     font-size: 1.2rem;
     color: rgb(120,120,125);
 }
 
-.quote-icon {
-    font-size: 6rem;
-    display: inline-block;
-    color: rgb(120,120,125);
-    line-height: 1;
+
+/* ------- Font Awesome Icons ------- */
+.fas,
+.fab {
+    display: block;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 3rem;
 }
-
-
-
 
 
 
@@ -233,20 +240,21 @@ a:hover {
 header {
     background-image:url(/images/the-sleep-co-bed.jpg) ; 
     background-size: cover;
-    background-position: relative;
+    background-position: center;
+    padding: 1% 5%;
 }
+
+header h3 {
+    font-size: 5.5rem;
+    line-height: 1;
+}
+
 
 div.header-nav {
     position: relative;
     top: 0;
     left: 0;
     width: 100%;
-}
-
-
-header h3 {
-    font-size: 5.5rem;
-    line-height: 1;
 }
 
 
@@ -297,7 +305,14 @@ textarea {
 }
 
 
+/* ----- Testimonial Block ----- */
 
+.quote-icon {
+    font-size: 6rem;
+    display: inline-block;
+    color: rgb(120,120,125);
+    line-height: 1;
+}
 
 
 /* -------- Media Queries to Make Site Responsive -------- */
