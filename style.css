@@ -2,10 +2,11 @@
     Colors:
     Yellow: #FFBE00;
     Navy: #192B37;
+    Light Blue: #e3ecf2;
 */
 
 
-/ *---------- CSS Reset - Do this on every project ---------- */
+/*---------- CSS Reset - Do this on every project ---------- */
 
 *{
     padding: 0;
@@ -19,6 +20,8 @@ img { max-width: 100% }
 [class*=col] { padding: 0; }
 
 
+
+/* ---------------- Universal Styles & Utility Classes --------------- */
 
 /* ---------- Padding Utility Classes ----------  */ 
 
@@ -54,7 +57,7 @@ img { max-width: 100% }
 .padded-r-0 { padding-right: 0; }
 
 
-/* ----------  Margin Utility Classes ---------- */ 
+/* ---------- Margin Utility Classes ---------- */ 
 
 .margin-t { margin-top: 5%; }
 .margin-b { margin-bottom: 5%; }
@@ -80,23 +83,73 @@ img { max-width: 100% }
 .margin-lr { margin-left: 5%; margin-right: 5%; }
 
 
+/* -------- Minimum Height Classes -------- */
+
+.tall-50 {min-height: 50vh;  }
+.tall-60 { min-height: 60vh; }
+.tall-70 {min-height: 70vh;}
+.tall-80 { min-height: 80vh; }
+.tall-90 { min-height: 90vh; }
+.tall-100 { min-height: 100vh; }
+
+
+
+/* ---------- Background & Image Styles ----------*/
+
+.bg-dark { 
+    background-color: #192B37;
+    color: white;
+ }
+
+.bg-light { background-color: #e3ecf2 ; }
+.bg-featured { background-color: #FFBE00;}
+
+
+/* ----- Image Styles ----- */
+.bg-image {
+    background-image: url('/images/the-sleep-co-bed.jpg');
+    min-height: 10rem; /* - May Sometimes need to use landscape/ portrait ect instead of this - */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: grey; /* -- This is a fall back colour that will appear whilst the image is loading -- */
+}
+
+
+/* Image Aspect Ratios: Aspect Ratios with percentage unit are only effective if the element (the <div>) is inside a parent container or column, it can't be applied to the column itself. Good for using with images responsively */
+
+.landscape     { padding-bottom: 66%:  }
+.portrait-tall { padding-bottom: 175%; }
+.portrait      { padding-bottom: 125%; }
+.square        { padding-bottom: 100%; }
+
+
+/* ---------- Background Position ---------- */
+.bg-pos-t { background-position: top; }
+.bg-pos-b { background-position: bottom; }
+.bg-pos-l { background-position: left; }
+.bg-pos-r { background-position: right; }
+
+
+
+
 
 /* -------- Typography Styles -------- */
 
-.text-left    { text-align: left; }
-.text-right   { text-align: right; }
-.text-center  { text-align: center; }
+body {
+    font-family: 'Catamaran', sans-serif;
+    color: #192B37;
+}
+
+.left    { text-align: left; }
+.right   { text-align: right; }
+.center  { text-align: center; }
 
 
 .font-weight-light { font-weight: 200;}
 .font-weight-normal { font-weight: normal;}
 .font-weight-extra-bold { font-weight: 800;}
 
-
-body {
-    font-family: 'Catamaran', sans-serif;
-    color: #192B37;
-}
 
 
 h2,h3,h4,h5,h6 {
@@ -171,52 +224,6 @@ a:hover {
 }
 
 
-
-
-
-/* ---------- Background & Image Styles ----------*/
-
-.bg-dark { 
-    background-color: #192B37;
-    color: white;
- }
-
-.bg-light { background-color: #e3ecf2 ; }
-.bg-featured { background-color: #FFBE00;}
-
-
-.tall-50 {min-height: 50vh;  }
-.tall-60 { min-height: 60vh; }
-.tall-70 {min-height: 70vh;}
-.tall-80 { min-height: 80vh; }
-.tall-90 { min-height: 90vh; }
-.tall-100 { min-height: 100vh; }
-
-
-
-.bg-image {
-    background-image: url('/images/the-sleep-co-bed.jpg');
-    min-height: 10rem;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-color: grey; /* -- This is a fall back colour that will appear whilst the image is loading -- */
-}
-
-
-/* Aspect Ratios with percentage unit are only effective if the element (the <div>) is inside a parent container or column, it can't be applied to the column itself. */
-
-.landscape     { padding-bottom: 66%:  }
-.portrait-tall { padding-bottom: 175%; }
-.portrait      { padding-bottom: 125%; }
-.square        { padding-bottom: 100%; }
-
-
-/* ---------- Background Position ---------- */
-.bg-pos-t { background-position: top; }
-.bg-pos-b { background-position: bottom; }
-.bg-pos-l { background-position: left; }
-.bg-pos-r { background-position: right; }
 
 
 
