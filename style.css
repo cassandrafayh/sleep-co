@@ -353,6 +353,10 @@ text-area:focus {
 @media (max-width: 64em) {
   .show-md { display: block; }
   .hide-md { display: none;  }
+
+  .md-tall-80 { min-height: 80vh; }
+
+
 }
 
 
@@ -364,11 +368,11 @@ text-area:focus {
   .hide-sm { display: none;  }
 	 
   .sm-text-center { text-align: center; }
-  .sm-text-left { text-align: left; }
+  .sm-text-left  { text-align: left; }
   .sm-text-right { text-align: right; }
 
-  .sm-padded { padding: 5%; }
-  .sm-padded-1 { padding: 1rem; }
+  .sm-padded    { padding: 5%; }
+  .sm-padded-1  { padding: 1rem; }
   .sm-padded-05 { padding: 0.5rem; }
 
   .sm-padded-t-0 { padding-top: 0; }
@@ -380,6 +384,13 @@ text-area:focus {
   .sm-margin-b-0 { margin-bottom: 0; }
   .sm-margin-l-0 { margin-left: 0; }
   .sm-margin-r-0 { margin-right: 0; }
+
+
+  .logo h2 { font-size: 2rem; }
+
+  header h3 { font-size: 11vw; }
+
+
 }
 
 
@@ -389,6 +400,12 @@ text-area:focus {
 @media (max-width: 36em) {
   .show-xs { display: block; }
   .hide-xs { display: none;  }
+
+  h1 {
+    font-size: 1.4rem;
+    line-height: 1.1;
+  }
+
 }
 
 
