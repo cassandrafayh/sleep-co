@@ -412,6 +412,7 @@ text-area:focus {
 /* ------- Optional XXS (Extra etrxa small) Media Query (25em / 400px) NOT part of default Gridlex styling--------------- */ 
 /* - Styles added here will apply at devices smaller than 400px, or zoomed in equivalent */ 
 
+/* This class = looking for something with "grid" on parent & xxs-stack on child */
 @media (max-width: 25em) {
     [class*=grid] .xxs-stack {
         flex-basis: 100%;
