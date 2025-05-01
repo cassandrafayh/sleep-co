@@ -108,7 +108,7 @@ img { max-width: 100% }
 /* ----- Image Styles ----- */
 .bg-image {
     background-image: url('/images/the-sleep-co-bed.jpg');
-    min-height: 10rem; /* - May Sometimes need to use landscape/ portrait ect instead of this - */
+    /* min-height: 10rem; - May Sometimes need to use landscape/ portrait ect instead of this - useful when mocking up site but not needed once making responsive */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
