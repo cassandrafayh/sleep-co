@@ -396,7 +396,7 @@ p    { font-size: 1.1rem;}
   .banner-h3 {
     color: #192B37;
     font-size: 4rem;
-    
+    display: inline-block;
   }
 
 
