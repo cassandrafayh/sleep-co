@@ -393,6 +393,12 @@ p    { font-size: 1.1rem;}
 
   header h3 { font-size: 11vw; }
 
+  .banner-h3 {
+    color: #192B37;
+    font-size: 4rem;
+    
+  }
+
 
 }
 
