@@ -398,7 +398,15 @@ p    { font-size: 1.1rem;}
   }
 
   .banner-h3 {
-    color: #192B37;
+    font-size: 3.5rem;
+  }
+
+  .testimonial {
+    font-size: 1.8rem;
+  }
+
+  .quote-icon {
+    font-size: 5rem;
   }
 
 }
