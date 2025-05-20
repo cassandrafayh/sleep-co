@@ -428,6 +428,7 @@ p    { font-size: 1.1rem;}
 }
 
 
+
 }
 
 
@@ -449,6 +450,10 @@ p    { font-size: 1.1rem;}
   h3 { font-size: 1.5rem; }
 
   p  { font-size: 1rem; }
+
+  .card-pic {
+    max-width: 50%;
+  }
 
 
 }
