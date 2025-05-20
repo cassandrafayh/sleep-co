@@ -300,7 +300,7 @@ textarea {
 }
 
 input:focus,
-text-area:focus {
+textarea:focus {
     border: 2px solid #FFBE00;
     outline: none;
 }
@@ -420,6 +420,10 @@ p    { font-size: 1.1rem;}
   p {
     font-size: 1rem; 
     margin-top: 0.5rem;
+}
+
+.flex-flipper {
+    flex-direction: column-reverse;
 }
 
 
