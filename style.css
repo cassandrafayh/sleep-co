@@ -326,6 +326,11 @@ textarea:focus {
 }
 
 
+.ml-form-embedBody ml-form-embedBodyHorizontal row-form {
+    background: none;
+}
+
+
 
 
 /* -------- Media Queries to Make Site Responsive -------- */
