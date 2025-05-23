@@ -1,0 +1,5 @@
+_schema: _schema
+paths:
+  uploads: uploads
+  static: ''
+timezone: Etc/UTC
