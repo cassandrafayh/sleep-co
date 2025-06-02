@@ -456,9 +456,15 @@ p    { font-size: 1.1rem;}
 
   p  { font-size: 1rem; }
 
-  .card-pic {
-    max-width: 50%;
+
+  .sm-cloud {
+    margin: 0.2rem;
+    padding: 0.2rem;
   }
+
+.mob-center {
+    text-align: center;
+}
 
 
 }
