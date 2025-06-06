@@ -19,6 +19,9 @@ img { max-width: 100% }
 /* Optional padding to override default gridlex columns */ 
 [class*=col] { padding: 0; }
 
+/* Selects all of grids that gridlex is giving a negative margin to */
+[class*="grid-"], [class*="grid_"], [class~="grid"] { margin: 0; }
+
 
 
 /* ---------------- Universal Styles & Utility Classes --------------- */
@@ -430,6 +433,10 @@ p    { font-size: 1.1rem;}
 
 .flex-flipper {
     flex-direction: column-reverse;
+}
+
+.sm-square {
+    padding-bottom: 100%;
 }
 
 
