@@ -445,6 +445,10 @@ p    { font-size: 1.1rem;}
     padding-bottom: 100%;
 }
 
+.sm-nl-form {
+    text-align: left;
+}
+
 
 
 }
